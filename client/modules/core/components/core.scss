@@ -1,0 +1,44 @@
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+section#sidenav {
+	width: 200px;
+	height: 100%;
+	background-color: #2196f3;
+	position: fixed;
+	text-align: center;
+	h5 {
+		color: white;
+		padding-bottom: 24px;
+		padding-top: 24px;
+		&:hover {
+			background-color: #42a5f5;
+		}
+	}
+	.row {
+		a {
+			padding: 0px;
+			height: 50px;
+			line-height: 50px;
+			color: white;
+			border-top: 1px solid rgba(206,206,206,.60);
+			&:hover {
+				background-color: #42a5f5;
+			}
+			&:last-child {
+				border-bottom: 1px solid rgba(206,206,206,.60);
+				
+			}
+		}
+	}
+}
+
+.page-wrapper {
+	margin-left: 200px;
+}
+
+h2 {
+	margin: 0px;
+}

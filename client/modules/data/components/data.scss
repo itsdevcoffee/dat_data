@@ -1,0 +1,48 @@
+.text-center {
+	text-align: center;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td, th {
+	text-align: center;
+	font-size: 10px;
+}
+
+// Header
+h2 {
+	padding-top: 12px;
+	color: #2196f3;
+	border-bottom: 2px solid rgba(206,206,206,.60);
+	text-align: center;
+	padding-bottom: 12px;
+}	
+
+// Dashboard
+section#dashboard {
+	padding-left: 5%;
+	padding-right: 5%;
+	.add-data {
+		margin: 12px;
+	}
+}
+
+
+
+// Interest Pie
+#interest-pie {
+	.card-panel {
+		margin-top: 24px;
+	}
+}
+
+// Relocation Pie
+#relocation-pie {
+	.card-panel {
+		margin-top: 24px;
+	}
+}

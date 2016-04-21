@@ -1,2 +1,1 @@
-# dat_data
-Poetic system interview app
+# mantra-dat_data
